@@ -1,1 +1,3 @@
-![](images/dogs.gif)
+#Dogs App
+
+![](PhotocCollection/images/dogs.gif)
