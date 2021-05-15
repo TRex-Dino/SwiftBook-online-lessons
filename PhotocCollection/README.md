@@ -1,3 +1,3 @@
-#Dogs App
+# Dogs App
 
 ![](PhotocCollection/images/dogs.gif)
