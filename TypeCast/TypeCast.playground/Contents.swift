@@ -2,7 +2,7 @@ import UIKit
 
 class Animal {
     var name = ""
-    var description: String {
+    var description: String { // Use get value, to ovveride in childsClass
         "Animal"
     }
     
@@ -31,6 +31,7 @@ class Bird: Animal {
     }
 }
 
+//create an instance for classes
 let animal = Animal()
 let dog = Dog()
 let cat = Cat()
@@ -87,7 +88,7 @@ func getPets() -> [Animal] {
     return pets
 }
 
-let pets = getPets()
+let pets = getPets() // [Animal]
 
 var dogCount = 0
 var catCount = 0
@@ -104,6 +105,7 @@ for pet in pets {
 }
 
 print("There are \(dogCount) dogs, \(catCount) cats, \(birdCount) birds")
+// There are 9 dogs, 7 cats, 8 birds
 
 func walk(with dog: Dog) {
     print("Walking \(dog.name)")
@@ -117,6 +119,7 @@ func cleanCage(for bird: Bird) {
     print("Removing the \(bird.name) featers at the bottom of the cage")
 }
 
+// casting as? to get type class
 for pet in pets {
     if let dog = pet as? Dog {
         walk(with: dog)
@@ -129,6 +132,7 @@ for pet in pets {
 
 let items: [Any] = [1, "Tim Cook", dog, 4, 3.14]
 
+// casting first item type Int in [Any]
 if let firstItem = items.first as? Int {
     print(firstItem + 4)
 }
