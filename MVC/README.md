@@ -3,8 +3,11 @@ What we know:
 1. How to work with the **MVC** structure
 - more info about **MVC** [here](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html)
 2. Сreating a **model** and transferring data to other controllers. Use **static func** in model, to get mock user
-<img src="Code/demo/2.png" width="200" />
+
+<img src="Code/demo/2.png" width="200"/>
+
 - [Use Code](https://github.com/TRex-Dino/SwiftBook-online-lessons/tree/main/MVC/Code)
+
 3. Use **NSLayoutConstraint**
 4. **stackView**
 5. **UITextFieldDelegate**, use two method: **touchesBegan**, **textFieldShouldReturn**
